@@ -27,3 +27,8 @@
     border-radius: 25px;
     padding-top: 10px;
 }
+
+.myself {
+    width: 200px;
+    border-radius: 50px;
+}
