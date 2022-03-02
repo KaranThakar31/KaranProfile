@@ -31,3 +31,9 @@
 .myself {
     width:10em;
 }
+.skilldiv {
+    background-image: url('skilldiv background image.jpg');
+}
+.hobbiesdiv {
+    background-image: url('hobby background image.jpg');
+}
