@@ -8,7 +8,7 @@ a{
 /* about myself */
 #aboutme{
     width: 100%;
-    height: 273px;
+    height: 360px;
     background-image: url('images/aboutme\ background\ image.jpg');
     background-repeat: no no-repeat;
     background-size: cover;
@@ -21,16 +21,17 @@ a{
 }
 #myimage>img{
     width: 60%;
-    height:245px;
+    height:314px;
     margin-top: 2%;
     border-radius: 5px;
 }
 #mydescrip{
-    width: 45%;
-    margin-right: 5%;
+    width: 23%;
+    margin-right: 20%;
     float: right;
     height: 300px;
     margin-top: 2%;
+    font-size: 17px;
 }
 #mydescrip>p{
     text-align: center;
@@ -41,15 +42,10 @@ h2{
     color: beige;
     font-style: italic;
 }
-#phonenm{
-    display:block;
-}
-
 /* Skills  */
 #skill{
     width: 100%;
     height: 135px;
-    border:2px solid black;
     text-align: center;
     margin: auto;
 }
@@ -68,7 +64,6 @@ h2{
     text-align: center;
     width: 100%;
     height: 133px;
-    border: 2px solid black;
 }
 #hobby>h2{
     text-align: center;
@@ -84,7 +79,7 @@ h2{
 /* contact me and get in touch */
 .getintouch{
     width:100%;
-    height:562px;
+    height:470px;
 }
 #googlemtel{
     width:40%;
@@ -93,7 +88,7 @@ h2{
     margin: auto;
     margin-left: 5%;
 }
-#googlemtel>h2{
+#googlemtel>.container>h2{
     color:black;
 }
 #phonenm>a>img{
@@ -102,9 +97,6 @@ h2{
 }
 #googlemtel>a{
     padding-top: 10px;
-}
-#googlemtel>iframe{
-    margin-left: 0%;
 }
 #smedialink{
     float: right;
@@ -122,6 +114,24 @@ h2{
     height:50px;
     width:50px;
 }
+#phonenm{
+    margin: auto;
+}
+#github-projects{
+    height: 1100px;
+}
+#kasbah{
+    height: 570px;
+    margin-bottom: 1%;
+    text-align: center;
+    margin: auto;
+}
+#zomato{
+    height: 570px;
+    margin-bottom: 1%;
+    text-align: center;
+    margin: auto;
+}
 
 /* footer */
 .foot{
@@ -136,12 +146,37 @@ h2{
 .foot>.copyright{
     padding-top: 150px;
 }
+@media screen and (max-width:1540px){
+    #mydescrip{
+        width: 24%;
+        margin-right: 19%;
+    }
+}
+@media screen and (max-width:1475px){
+    #myimage>img{
+        width:354px;
+    }
+    #mydescrip{
+        width: 24.5%;
+        margin-right: 18%;
+    }
+}
+@media screen and (max-width:1400px){
+    #mydescrip{
+        width: 25%;
+        margin-right: 17%;
+    }
+}
 @media screen and (max-width:1365px) {
     #googlemtel{
         margin-left: 3%;
     }
     #smedialink{
         margin-right: 4%;
+    }
+    #mydescrip{
+        width: 25.5%;
+        margin-right: 17%;
     }
 }
 @media screen and (max-width:1300px) {
@@ -152,12 +187,28 @@ h2{
         margin-right: 4%;
     }
 }
+@media screen and (max-width:1260px){
+    #mydescrip{
+        width: 26%;
+        margin-right: 16%;
+    }
+}
 @media screen and (max-width:1200px) {
     #googlemtel{
         margin-left: 2%;
     }
     #smedialink{
         margin-right: 3%;
+    }
+    #mydescrip{
+        width: 27%;
+        margin-right: 15%;
+    }
+}
+@media screen and (max-width:1100px){
+    #mydescrip{
+        width: 28%;
+        margin-right: 14%;
     }
 }
 @media screen and (max-width:1150px) {
@@ -168,140 +219,61 @@ h2{
         width: 95%;
         height: 149px;
     }
-    .foot {
-        margin-top: 15%;
+}
+@media screen and (max-width:990px){
+    #mydescrip{
+        width: 29%;
+        margin-right: 13%;
     }
 }
-
 @media screen and (max-width:930px){
-    #myimage>img{
-        width: 76%;
+    #mydescrip{
+        width: 30%;
     }
 }
 @media screen and (max-width:870px){
-    .foot {
-        margin-top: 17%;
-    }
-}
-@media screen and (max-width:860px){
-    #myimage>img{
-        width: 80%;
-    }
     #aboutme{
-        height: 280px;
-    }    
+        height: 352px;
+    } 
 }
-@media screen and (max-width:820px){
-    .foot {
-        margin-top: 18%;
-    }
-}
-@media screen and (max-width:800px){
-    #myimage>img{
-        width: 86%;
-    }
+@media screen and (max-width:830px){
     #aboutme{
-        height: 285px;
-    }  
+        height: 375px;
+    } 
 }
 @media screen and (max-width:780px){
-    .foot {
-        margin-top: 20%;
-    }
-}
-@media screen and (max-width:730px){
     #myimage{
-        width: 44%;
-    }
-}
-@media screen and (max-width:700px){
-    .foot {
-        margin-top: 22%;
-    }
-}
-@media screen and (max-width:650px){
-    .foot {
-        margin-top: 24%;
-    }
-}
-@media screen and (max-width:685px){
-    #myimage>img{
-        width: 86%;
-    }
-    #aboutme{
-        height: 290px;
-    }
-    #myimage{
-        width: 43%;
-    }
-}
-@media screen and (max-width:648px){
-    #myimage{
-        width: 46%;
         text-align: center;
-        margin: auto; 
+        margin:auto;
+        float: none;
+        width: 60%;
+    }
+    #mydescrip{
+        width:100%;
+        display: block;
+        text-align: center;
+        margin: auto;
     }
     #aboutme{
-        height: 293px;
-    }
+        height: 582px;
+    } 
 }
-@media screen and (max-width:640px){
-    #myimage {
-        width: 95%;
-        margin-left : 2%;
-    }
-    #aboutme {
-        height: 493px;    
+@media screen and (max-width:610px){
+    #myimage{
         width: 100%;
     }
-    #mydescrip {
-        width: 94%;
+}
+@media screen and (max-width:580px){   
+    #aboutme{
+        height:605px;
     }
-    #myimage>img {
-        width: 50%;
+    #mydescrip{
+        width: 90%;
+        margin-right: 5%;
     }
 }
-@media screen and (max-width:590px){
-    .foot {
-        margin-top: 25%;
-    }
-}
-@media screen and (max-width:568px){
-    #aboutme {
-        height: 500px;
-    }
-    .foot {
-        margin-top: 26%;
-    }
-}
-@media screen and (max-width:535px){
-    #aboutme {
-        height: 516px;
-    }
-    .foot {
-        margin-top: 27%;
-    }
-}
-@media screen and (max-width:528px){
-    .foot {
-        margin-top: 28%;
-    }
-}
-@media screen and (max-width:505px){
-    .foot {
-        margin-top: 29%;
-    }
-}
-@media screen and (max-width:490px){
-    #myimage>img {
-        width: 58%;
-    }
-    .foot {
-        margin-top: 30%;
-    }
-}
-@media screen and (max-width:480px){
-    .foot {
-        margin-top: 31%;
+@media screen and (max-width:470px){
+    #aboutme{
+        height: 620px;
     }
 }
